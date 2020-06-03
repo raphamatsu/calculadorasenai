@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">    
+    </head>
 <body>
     <span>Calculadora</span>
     <form>
@@ -32,15 +34,6 @@
             </tr>
         </table>
     </form>
-    <script>
-        function somar() {
-           document.getElementById("resultado").value = 
-           Number(document.getElementById("num1_id").value) + 
-           Number(document.getElementById("num2_id").value);
-
-           document.getElementById("num1_id").value="";
-           document.getElementById("num2_id").value="";
-        }
-    </script>
+    <script src="formulas.js"></script>
 </body>
 </html>
